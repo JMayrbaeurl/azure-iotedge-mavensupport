@@ -9,6 +9,8 @@
 	<packaging>jar</packaging>
 
 	<name>Azure IoT Edge Maven Plugin Tester</name>
+	<description>Test for Maven plugin to work with Azure IoT Edge</description>
+	<url>https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</url>
 
     <licenses>
         <license>
@@ -17,6 +19,13 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    
+    <scm>
+        <connection>scm:git:https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</connection>
+        <developerConnection>scm:git:git@github.com:JMayrbaeurl/azure-iotedge-mavensupport</developerConnection>
+        <url>https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <developers>
         <developer>
@@ -37,7 +46,7 @@
 			<plugin>
 				<groupId>com.microsoft.azure.sdk.iot</groupId>
 				<artifactId>azure-iotedge-maven-plugin</artifactId>
-				<version>1.0-SNAPSHOT</version>
+				<version>1.0</version>
 				<configuration>
 					<IotHubConnectionString>${IotHubConnectionString}</IotHubConnectionString>
 					<deviceId>jurgenmaEdgeP50</deviceId>

@@ -5,10 +5,12 @@
 
 	<groupId>com.microsoft.azure.sdk.iot</groupId>
 	<artifactId>azure-iotedge-maven-plugin</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>Azure IoT Edge Maven Plugin</name>
+	<description>Maven plugin to work with Azure IoT Edge</description>
+	<url>https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</url>
 
     <licenses>
         <license>
@@ -18,6 +20,13 @@
         </license>
     </licenses>
 
+    <scm>
+        <connection>scm:git:https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</connection>
+        <developerConnection>scm:git:git@github.com:JMayrbaeurl/azure-iotedge-mavensupport</developerConnection>
+        <url>https://github.com/JMayrbaeurl/azure-iotedge-mavensupport</url>
+        <tag>HEAD</tag>
+    </scm>
+    
     <developers>
         <developer>
             <id>jmayrbaeurl</id>
